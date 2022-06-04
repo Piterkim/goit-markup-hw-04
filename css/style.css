@@ -426,13 +426,6 @@ ul {
 
   color: #ffffff;
 }
-.conect-div {
-  position: absolute;
-  width: 206px;
-  height: 80px;
-  right: 998px;
-  top: 2712px;
-}
 
 .footer .list {
   display: flex;
@@ -496,20 +489,16 @@ ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  fill: currentColor;
-}
-
-.command-li {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
 }
 
 .clients {
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.command-li:last-child {
+.command-li {
+  margin-right: 10px;
+}
+.command-li:nth-child(4n) {
   margin-right: 0;
 }
 .clients-title {
@@ -546,6 +535,7 @@ ul {
   margin-right: 30px;
   justify-content: center;
 }
+
 .clients-item .list:nth-child(6n) {
   margin-right: 0;
 }
